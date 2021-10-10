@@ -1,4 +1,3 @@
-![Banner](./github_assets/Lavender.png)
 # LAVENDER 📺
 
 A fully-functional video streaming app like netflix made in **Flutter** using **Custom Nodejs backend**.
