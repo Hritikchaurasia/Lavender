@@ -1,0 +1,51 @@
+name: lavender
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.0
+  flutter_bloc: ^7.0.0
+  http: ^0.12.2
+  yoyo_player: ^0.1.0
+  lottie: ^1.0.1
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Mukta
+      fonts:
+        - asset: assets/fonts/Mukta-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Mukta-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Mukta-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Mukta-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Mukta-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Mukta-Light.ttf
+          weight: 300
+        - asset: assets\fonts\Mukta-ExtraLight.ttf
+          weight: 200
+    
+
